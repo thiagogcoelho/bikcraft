@@ -1,9 +1,11 @@
+/* global/resets */
 @import url(./global/global.css);
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/cores.css);
 @import url(./global/header.css);
 @import url(./global/footer.css);
-/* utilidades */
+
+/* componentes */
 @import url(./utilidades/componentes.css);
 
 /* home */
@@ -18,6 +20,8 @@
 
 /* seguros */
 @import url(./seguros/seguros.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
 
 /* termos */
 @import url(./termos/termos.css);
