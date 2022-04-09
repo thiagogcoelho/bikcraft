@@ -1,0 +1,7 @@
+#contato {
+  background: var(--cor-1);
+}
+
+.contato {
+  display: grid;
+}
