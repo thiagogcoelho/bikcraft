@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato | Bikcraft</title>
   <meta name="description" content="Contato">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -69,19 +70,54 @@
             <label for="telefone">Telefone</label>
             <input type="text" id="telefone" name="telefone" placeholder="(11) 99999-9999">
           </div>
-          <div>
+          <div class="col-2">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="email@email.com">
           </div>
-          <div>
+          <div class="col-2">
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
-          <button class="botao">Enviar Mensagem</button>
+          <button class="botao col-2">Enviar Mensagem</button>
         </form>
       </section>
     </div>
   </main>
+
+  <article class="lojas container">
+    <h2 class="font-1-xxl">Lojas Locais <span class="cor-p1">.</span></h2>
+    <div class="lojas-item">
+      <img src="./img/lojas/rj.jpg" alt="Mapa marcando o endereço em Rua ALi Perto, 25 - Rio de Janeiro - RJ">
+      <div class="lojas-conteudo">
+        <h3 class="font-1-xl">Rio de Janeiro</h3>
+        <div class="lojas-dados font-2-s cor-8">
+          <p>Rua Ali Perto, 25</p>
+          <p>Rio de Janeiro - RJ</p>
+        </div>
+        <div class="lojas-dados font-2-s cor-8">
+          <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
+          <a href="tel:+5521999999999">+55 11 9 9999-9999</a>
+        </div>
+        <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+      </div>
+    </div>
+
+    <div class="lojas-item">
+      <img src="./img/lojas/sp.jpg" alt="Mapa marcando o endereço em Av Paulista, 999 - SP">
+      <div class="loja-conteudo">
+        <h3 class="font-1-xl">São Paulo</h3>
+        <div class="lojas-dados font-2-s cor-8">
+          <p>Av Paulista, 999</p>
+          <p>São Paulo - SP</p>
+        </div>
+        <div class="lojas-dados font-2-s cor-8">
+          <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+          <a href="tel:+5511947908779">+55 11 9 47908779</a>
+        </div>
+        <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+      </div>
+    </div>
+  </article>
 
   <footer class="footer-bg">
     <div class="footer container">
